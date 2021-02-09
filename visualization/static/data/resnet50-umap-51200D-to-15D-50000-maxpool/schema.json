@@ -1,0 +1,209 @@
+{
+  "archIndex": 0,
+  "labels": {
+    "id": "labels-coarse",
+    "shape": 50000
+  },
+  "layers": [
+    {
+      "id": "0-Input",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "1-Conv2d",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.3264055156100591
+    },
+    {
+      "id": "2-BatchNorm2d",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.08392256705701476
+    },
+    {
+      "id": "3-ReLU",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.025348977467606774
+    },
+    {
+      "id": "4-MaxPool2d",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.03630525043398266
+    },
+    {
+      "id": "5-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.1330040445242127
+    },
+    {
+      "id": "6-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.029433377348781875
+    },
+    {
+      "id": "7-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.02293254982765795
+    },
+    {
+      "id": "8-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.08495565513612827
+    },
+    {
+      "id": "9-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.07191082236032188
+    },
+    {
+      "id": "10-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.03489259389262678
+    },
+    {
+      "id": "11-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.03797492319401385
+    },
+    {
+      "id": "12-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.12880714491073786
+    },
+    {
+      "id": "13-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.06497467616915827
+    },
+    {
+      "id": "14-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.04783860400576175
+    },
+    {
+      "id": "15-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.04120310795013606
+    },
+    {
+      "id": "16-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.04982816111210268
+    },
+    {
+      "id": "17-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.08325559268355866
+    },
+    {
+      "id": "18-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.2798303407305926
+    },
+    {
+      "id": "19-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.1378791072849445
+    },
+    {
+      "id": "20-Bottleneck",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.9366447935201526
+    },
+    {
+      "id": "21-AdaptiveAvgPool2d",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.4294381682428171
+    },
+    {
+      "id": "22-Flatten",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.05556618768026431
+    },
+    {
+      "id": "23-Linear",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.08394642584562333
+    },
+    {
+      "id": "24-Softmax",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 1.025997277407825
+    }
+  ]
+}

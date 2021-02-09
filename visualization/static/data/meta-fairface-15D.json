@@ -1,0 +1,31 @@
+{
+  "data_shape": [97698,15],
+  "attribute_url": "data/fairface-umap-51200D-to-15D-97698-avgpool/attributes.csv",
+  "attributes": {
+    "age": {
+      "type": "ordinal",
+      "order": ["0-2", "3-9", "10-19", "20-29", "30-39", "40-49", "50-59", "60-69", "more than 70"]
+    },
+    "race": {
+      "type": "categorical"
+    },
+    "gender": {
+      "type": "categorical"
+    }
+  },
+  "image_urls": [
+    "data/images/fairface-32-100x100-97698-0.png",
+    "data/images/fairface-32-100x100-97698-1.png",
+    "data/images/fairface-32-100x100-97698-2.png",
+    "data/images/fairface-32-100x100-97698-3.png",
+    "data/images/fairface-32-100x100-97698-4.png",
+    "data/images/fairface-32-100x100-97698-5.png",
+    "data/images/fairface-32-100x100-97698-6.png",
+    "data/images/fairface-32-100x100-97698-7.png",
+    "data/images/fairface-32-100x100-97698-8.png",
+    "data/images/fairface-32-100x100-97698-9.png"
+  ],
+  "epoch_arch_to_dir": {
+    "0,0": "./fairface-umap-51200D-to-15D-97698-avgpool/"
+  }
+}

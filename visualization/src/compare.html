@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<title><%= htmlWebpackPlugin.options.title %></title>
+<!-- bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<!-- font awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<!-- <link rel="stylesheet" href="css/style-compare.css"> -->
+</head>
+<body>
+<div id='root' class='column-container'>
+  <div class='row-container'>
+    <!-- <input id='dtw-layer-slider' type='range' step='1' min='0' max='22'></input> -->
+    <div id='dummy-1'></div>
+    <svg id='dtw-layer-matrix'></svg>
+    <div id='dummy-2'></div>
+  </div>
+
+  <div id='panel-1' class='row-container'>
+    <div class='grandtour-container'>
+      <canvas id='grandtour-canvas-1'></canvas>
+    </div>
+    <div style='display: none' class='layers-container'>
+      <svg id='layers-1'></svg>
+    </div>
+    <div style='display: none' class='controls-container'>
+      <label id='epoch-label-1' for='epoch-slider-1'>Epoch: </label> 
+      <input id='epoch-slider-1' type='range' step='0.1' list='epochStepList'></input>
+    </div>
+  </div>
+  <div id='panel-2' class='row-container'>
+    <div class='grandtour-container'>
+      <canvas id='grandtour-canvas-2'></canvas>
+    </div>
+    <div style='display: none' class='layers-container'>
+      <svg id='layers-2'></svg>
+    </div>
+    <div style='display: none' class='controls-container'>
+      <label id='epoch-label-2' for='epoch-slider-2'>Epoch: </label> 
+      <input id='epoch-slider-2' type='range' step='0.1' list='epochStepList'></input>
+    </div>
+  </div>
+  
+  
+  
+    <!-- <div id='text-display'>
+      <p>'space' to pause & play</p>
+      <p id='title'></p>
+    </div> -->
+
+    <!-- <datalist id="epochStepList"></datalist> -->
+
+  </div>
+
+  
+</div>
+</body>
+</html>

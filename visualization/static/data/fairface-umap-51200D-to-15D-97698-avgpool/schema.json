@@ -1,0 +1,177 @@
+{
+  "archIndex": 0,
+  "labels": {
+    "id": "labels-coarse",
+    "shape": 97698
+  },
+  "layers": [
+    {
+      "id": "0-Input",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "1-BasicConv2d",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "2-MaxPool2d",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "3-BasicConv2d",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "4-BasicConv2d",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "5-MaxPool2d",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "6-Inception",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "7-Inception",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "8-MaxPool2d",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "9-Inception",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "10-Inception",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "11-Inception",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "12-Inception",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "13-Inception",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "14-MaxPool2d",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "15-Inception",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "16-Inception",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "17-AdaptiveAvgPool2d",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "18-Flatten",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "19-Linear",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "20-Softmax",
+      "shape": [
+        97698,
+        15
+      ],
+      "residual": 0
+    }
+  ]
+}

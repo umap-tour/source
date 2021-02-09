@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<title><%= htmlWebpackPlugin.options.title %></title>
+
+<!-- bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<!-- font awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+
+<!-- <link rel="stylesheet" href="css/style-single.css"> -->
+</head>
+<body>
+<div id='root'><!-- class='grid-container'> -->
+  <!-- <div id='all-arch-umap-container' class='grid-item'>
+    <svg id='all-arch-umap'></svg>
+  </div> -->
+
+  <div id='grandtour-container'> <!-- class='grid-item'> -->
+    <canvas id='grandtour-canvas'></canvas>
+  </div>
+
+  <div>
+    <label id='epochLabel' for='epochSlider'>Epoch: </label>
+    <input id='epochSlider' type='range' step='0.1'></input>
+  </div>
+
+  <!-- <div id='layers-container' class='grid-item'>
+    <svg id='layers'></canvas>
+  </div> -->
+  
+<!--   <div id='controls-container' class='grid-item'>
+
+    <div id='text-display'>
+      <p>'space' to pause & play</p>
+      <p id='title'></p>
+    </div>
+    <label id='epochLabel' for='epochSlider'>Epoch: </label>
+    <input id='epochSlider' type='range' step='0.1' list='epochStepList'></input>
+    <datalist id="epochStepList"></datalist>
+  </div> -->
+
+  
+</div>
+</body>
+</html>

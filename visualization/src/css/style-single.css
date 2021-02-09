@@ -1,0 +1,114 @@
+.noselect, text{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+
+html, body{
+  margin: 0;
+  background-color: #555;
+  width: 100%;
+  height: 100%;
+}
+
+div{
+  min-height: 10px;
+  min-width: 10px;
+}
+
+.grid-container{
+  display: grid;
+  /*grid-template-columns: 0.5fr 1.618fr;*/
+  /*grid-template-rows: 3fr 0.8fr;*/
+}
+
+#root{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+#all-arch-umap-container{
+  position: relative;
+  width: 100%; 
+  height: 100%;
+  background: #666;
+}
+#all-arch-umap{
+  width: 100%;
+  height: 100%;
+}
+
+
+#grandtour-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*grid-column: 2 / 3;*/
+  grid-row: 1 / 2;
+}
+#grandtour-canvas{
+  width: 100%;
+  height: 100%;
+}
+
+
+#layers-container{
+  /*grid-column: 1 / 3;*/
+  grid-row: 2 / 3;
+}
+#layers{
+  width: 100%; 
+  height: 100%;
+  background-color: #444;
+}
+
+
+canvas {
+  background: #000;
+  position: absolute;
+}
+svg.overlay {
+  position: absolute;
+}
+
+
+/*Controls*/
+/*#controls-container{
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  width: 100%;
+  height: 100%;
+  padding: 20px; 
+}*/
+
+
+#epochSlider{
+  width: 81%;
+  position: absolute;
+  top: calc( 100% - 60px);
+  left: 10%;
+}
+
+#epochLabel{
+  position: absolute;
+  left: calc( 71% / 2);
+  top: calc( 100% - 80px);
+}
+
+i.fas{
+  font-size: 1.5em;
+  color: #eee;
+}
+#text-display, label{
+  color: #eee;
+}
+
+
