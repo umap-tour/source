@@ -778,7 +778,7 @@ export default class GrandTourInTheShaderView{
           'type': 'categorical',
         };
         this.attributes[a] = {
-          sc: (d)=>([1,1,1, 0.4]),
+          sc: (d)=>([22/255, 96/255, 167/255, 0.4]),
           domain: [0],
           domain2index:  {0:0},
         };
