@@ -1,0 +1,32 @@
+
+
+
+html{
+  /*background-color: #eee;*/
+}
+
+h1, h2{
+  margin-top: 1em;
+}
+
+.thumb{
+  max-width: 30vw;
+  max-height: 35vh;
+  width: auto;
+  height: auto;
+  /*center*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.demo{
+  text-align: center;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.demo:hover{
+  /*outline: #333 solid 4px;*/
+  box-shadow: 0 0 5px #333;
+}

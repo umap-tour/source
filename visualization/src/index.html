@@ -11,42 +11,55 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 <!-- font awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> -->
 
 
-<!-- <link rel="stylesheet" href="css/style-single.css"> -->
 </head>
 <body>
-<div id='root'><!-- class='grid-container'> -->
-  <!-- <div id='all-arch-umap-container' class='grid-item'>
-    <svg id='all-arch-umap'></svg>
-  </div> -->
+<div id='root' class='container'>
 
-  <div id='grandtour-container'> <!-- class='grid-item'> -->
-    <canvas id='grandtour-canvas'></canvas>
+
+
+<h1>
+  UMAP Tour
+  <a href='https://github.com/umap-tour/source'>[code]</a>
+  <a href='./docs/umap-tour.pdf'>[paper]</a>
+  <a href='./docs/umap-tour-supplement.pdf'>[supplement]</a>
+</h1>
+
+
+<div class='row'>
+  <div class="col-6 demo">
+    <a href="googlenet.html">
+      <img class='thumb' src="images/googlenet.png">
+      <p>Probing GoogLeNet with ImageNet Dataset</p>
+    </a>
   </div>
-
-  <div>
-    <label id='epochLabel' for='epochSlider'>Epoch: </label>
-    <input id='epochSlider' type='range' step='0.1'></input>
+  <div class="col-6 demo">
+    <a href="fairface.html">
+      <img class='thumb' src="images/fairface.png">
+      <p>Probing GoogLeNet with FairFace Dataset</p>
+    </a>
   </div>
+</div>
 
-  <!-- <div id='layers-container' class='grid-item'>
-    <svg id='layers'></canvas>
-  </div> -->
-  
-<!--   <div id='controls-container' class='grid-item'>
+<div class='row'>
+  <div class="col-6 demo">
+    <a href="resnet50.html">
+      <img class='thumb' src="images/resnet50.png">
+      <p>Probing ResNet-50 with ImageNet Dataset</p>
+    </a>
+  </div>
+  <div class="col-6 demo">
+    <a href="compare-imagenet.html">
+      <img class='thumb' src="images/compare-imagenet.png">
+      <p>Compare ResNet-50 with GoogLeNet</p>
+    </a>
+  </div>
+</div>
 
-    <div id='text-display'>
-      <p>'space' to pause & play</p>
-      <p id='title'></p>
-    </div>
-    <label id='epochLabel' for='epochSlider'>Epoch: </label>
-    <input id='epochSlider' type='range' step='0.1' list='epochStepList'></input>
-    <datalist id="epochStepList"></datalist>
-  </div> -->
 
-  
+
 </div>
 </body>
 </html>

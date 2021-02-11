@@ -11,6 +11,7 @@ let chunks = {
     googlenet_train_15D_50000: './src/main-single-googlenet-train-15D.js',
     fairface: './src/main-single-fairface.js',
     compare_imagenet: './src/main-compare-imagenet.js',
+    index: './src/index.js',
 };
 
 let pages = [
@@ -43,6 +44,12 @@ let pages = [
         template: "./src/single.html", 
         filename: "fairface.html", 
         chunks: ['fairface'],
+    },
+    {
+        title: "UMAP Tour", 
+        template: "./src/index.html", 
+        filename: "index.html", 
+        chunks: ['index'],
     },
 ];
 console.log(pages.map(d=>d.filename));
