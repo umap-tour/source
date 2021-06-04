@@ -1,6 +1,6 @@
 # Visualizing Deep Neural Nets with UMAP Tour
 
-[[paper]](https://umap-tour.github.io/docs/umap-tour.pdf) [[supplement]](https://umap-tour.github.io/docs/umap-tour-supplement.pdf) [[Demo]](https://umap-tour.github.io/index.html)
+[[Demo]](https://umap-tour.github.io/index.html)
 
 
 
