@@ -9,7 +9,14 @@
 ```git clone https://github.com/umap-tour/source.git ./umap-tour```
 
 
+## Run Visualizations
+1. ```cd ./umap-tour/visualization```
+2. ```npm install```
+3. ```npm run```
+4. Go to http://localhost:8080
 
+
+This repository contains all data needed to run the website. To regenerate the data or generate data from other models, please refer to the info below.
 ## Computing UMAP
 
 1. Get the source code. Assume it is under ./umap-tour/. 
@@ -25,9 +32,3 @@
 
 
 
-## Run Visualization Locally
-
-1. ```cd ./umap-tour/visualization```
-2. ```npm install```
-3. ```npm run```
-4. Go to http://localhost:8080
