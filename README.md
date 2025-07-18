@@ -6,13 +6,13 @@
 
 ## Get the Source Code
 
-```git clone https://github.com/umap-tour/source.git ./umap-tour```
+```git clone git@github.com:umap-tour/source.git ./umap-tour```
 
 
 ## Run Visualizations
 1. ```cd ./umap-tour/visualization```
 2. ```npm install```
-3. ```npm run```
+3. ```npm run start```
 4. Go to http://localhost:8080
 
 
